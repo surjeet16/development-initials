@@ -1,0 +1,20 @@
+How search engines rank websites
+first priority is web content.
+and other priority is web vitals.
+core web vitals 
+Core Web Vitals are a set of specific factors that Google considers important in a webpage's overall user experience. They are part of Google's larger Web Vitals initiative to provide unified guidance for quality signals that are essential to delivering a great user experience on the web.
+fid First Input Delay (FID) measures interactivity. It quantifies the time from when a user first interacts with a page (like clicking a link or tapping a button) to the time when the browser is able to respond to that interaction. A low FID indicates that the page is responsive and provides a good user experience.
+
+cls Cumulative Layout Shift (CLS) measures visual stability. It quantifies how much the content on a page shifts during loading. A low CLS score indicates that the page is stable and elements do not move around unexpectedly, which is crucial for user experience.
+
+lcp Largest Contentful Paint (LCP) measures loading performance. It marks the point in the page load timeline when the main content of the page has likely loaded. A fast LCP helps ensure that users can see and interact with the content quickly.a good lcp score is 2.5 seconds or faster.
+
+meta desc jaruri nahi hai search engine usko parse kare but it can be generated through your web page to give a brief about your web page.
+meta keywords are now of no use if you use it its not necessary that search engine will parse it.
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a page which contains description about harry ">                  

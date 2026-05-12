@@ -1,0 +1,38 @@
+inline css:- <p style ='color is line me add krte hai> lorem isn good
+
+internal css:- <head> <style> 
+p{
+    color''
+    </p>
+}
+</head>
+
+external css:- <link rel="stylesheet" href="style.css">
+and we link this css file in our html file and write our css code in that file.
+
+
+selectors: what ?
+selectors are used to select the element on which we want to apply the css properties.
+types of selectors:
+1. element selector:- it is used to select the element by its name. p,h1,ARTICLE, 
+example:- p{
+    color: red;
+
+    ID selector  <p id = 'abc' > use #abc jis bhi element ki id abc hai then all that syling will applied to them only  
+}
+2. class selector:- it is used to select the element by its class name.
+example:- .class1{
+    color: blue;
+    id to hai but agar aap ek element ki unique id banayenge and bhot sare elements ki same class ho skti hai mere pass bhot sare paragraph hai hum unko para class me ker skte hai 
+}
+3. id selector:- it is used to select the element by its id name.
+example:- #id1{
+    color: green;
+}
+4. universal selector:- it is used to select all the elements.
+example:- *{
+    color: black;
+}           group selector:- it is used to select multiple elements.
+example:- h1, h2, h3{
+    color: purple;
+}
